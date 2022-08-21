@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70520d93-db81-4c24-bf11-ae36fa66a7f6" name="Default" comment="" />
+    <list default="true" id="70520d93-db81-4c24-bf11-ae36fa66a7f6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -439,12 +441,12 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17829457" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2473573" side_tool="true" visible="true" weight="0.28484848" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4982382" weight="0.32969698" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.8928823" weight="0.32969698" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24947146" side_tool="true" visible="true" weight="0.28484848" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49682876" weight="0.32969698" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.8921776" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.32848486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7526427" visible="true" weight="0.28484848" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7505285" visible="true" weight="0.28484848" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
