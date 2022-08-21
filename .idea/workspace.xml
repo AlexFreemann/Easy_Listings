@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70520d93-db81-4c24-bf11-ae36fa66a7f6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="70520d93-db81-4c24-bf11-ae36fa66a7f6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +14,7 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uploader/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
+            <state relative-caret-position="1590">
               <caret line="106" column="97" selection-start-line="106" selection-start-column="97" selection-end-line="106" selection-end-column="97" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -37,7 +35,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listings/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="690">
               <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
               <caret line="44" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
               <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
@@ -52,7 +50,7 @@
       <file leaf-file-name="my_static_photos.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uploader/templates/uploader/my_static_photos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="136">
               <caret line="10" column="55" selection-end-line="42" selection-end-column="14" />
             </state>
           </provider>
@@ -70,7 +68,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uploader/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6480">
+            <state relative-caret-position="6630">
               <caret line="442" column="24" selection-start-line="442" selection-start-column="24" selection-end-line="442" selection-end-column="24" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
@@ -441,14 +439,14 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17829457" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24947146" side_tool="true" visible="true" weight="0.28484848" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2501762" side_tool="true" visible="true" weight="0.28484848" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.32848486" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49682876" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.8921776" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.32848486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7505285" visible="true" weight="0.28484848" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7498238" visible="true" weight="0.28484848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -460,21 +458,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17829457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.32848486" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49964765" weight="0.32948717" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32848486" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.32948717" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49964765" weight="0.32948717" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -791,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uploader/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
+        <state relative-caret-position="1590">
           <caret line="106" column="97" selection-start-line="106" selection-start-column="97" selection-end-line="106" selection-end-column="97" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
@@ -829,7 +827,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uploader/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6480">
+        <state relative-caret-position="6630">
           <caret line="442" column="24" selection-start-line="442" selection-start-column="24" selection-end-line="442" selection-end-column="24" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
@@ -839,7 +837,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/listings/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="690">
           <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <caret line="44" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
           <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
@@ -852,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uploader/templates/uploader/my_static_photos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="136">
           <caret line="10" column="55" selection-end-line="42" selection-end-column="14" />
         </state>
       </provider>
