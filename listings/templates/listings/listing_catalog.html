@@ -1,0 +1,59 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title %} Listing "Listing_title" {% endblock %}
+
+
+{% block content %}
+
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Catlog</h2>
+          <p>Your Listings</p>
+        </div>
+         <form method="get">
+           <!--{% csrf_token %}-->
+          {{filter.form.as_p}}
+           <input type="submit" />
+         </form>
+        <div class="row">
+
+
+          <form action="" method="post">
+            {% csrf_token %}
+            <button type="submit" name="delete">Delete</button>
+            <button type="submit" name="mark_read">Mark read</button>
+
+            {% for listing in listings %}
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <a href='listing_{{listing.id}}'>
+                <div class="member" data-aos="fade-up">
+                  <div class="member-img">
+                    <img src="{{listing.photo_main}}" class="img-fluid" alt="">
+                  </div>
+                  <div class="member-info">
+                    <h4>{{listing.title}}</h4>
+                    <span>Price: {{listing.price}}</span>
+                    <input type="checkbox" value={{listing.id}} name={{listing.title}}>
+                  </div>
+                </div>
+            </a>
+          </div>
+
+            {% endfor %}
+
+
+
+          </form>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+
+
+{% endblock %}

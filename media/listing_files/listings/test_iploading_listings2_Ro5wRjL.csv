@@ -1,0 +1,28 @@
+"listing_id","sku","title","description","tags","price"," currency_code","quantity","Primary Variation
+","Secondary Variation","who_made","is_customizable","when_made made_to_order","category_id","taxonomy_id","shipping_template_id","is_supply","main_image","Image 2","Image 3","Image 4","Image 5","Image 6","Image 7","Image 8","Image 9","Image 10","materials","occasion",""
+"New Listing = Leave Blank
+Existing Listing = Required
+(See 'Other Useful Tools' Tab)","(Product Identifier)","Maximum 140 characters
+The characters %, :, & and + can only be used once each (No HTML tags)","Description of the product
+(Maximum 5000 characters allowed)","(Tags / Keywords)
+Each tag up to 20 characters.
+Use up to 13 tags. (Separate by comma)","Item price"," The ISO (alphabetic) code for the items currency","The quantity of this item available for sale","Name of variation in your account","Name of variation in your account","(i_did / collective / someone_else)","Can the item be personalised?
+(No = 0 | Yes = 1)","When was the product made?","Link to table","The numeric ID of the listing main category.
+(This will automatically update depending on the Category you select)
+Do Not Edit","The numeric ID of the shipping template associated with the listing","If your item is a supply item, Select TRUE
+If your item is a finished product, Select FALSE","Images must be supplied as a URL.
+(URL must be publicly accessible via the internet)","Images must be supplied as a URL.
+(URL must be publicly accessible via the internet)","Images must be supplied as a URL.
+(URL must be publicly accessible via the internet)","Images must be supplied as a URL.
+(URL must be publicly accessible via the internet)","Images must be supplied as a URL.
+(URL must be publicly accessible via the internet)","Images must be supplied as a URL.
+(URL must be publicly accessible via the internet)","Images must be supplied as a URL.
+(URL must be publicly accessible via the internet)","Images must be supplied as a URL.
+(URL must be publicly accessible via the internet)","Images must be supplied as a URL.
+(URL must be publicly accessible via the internet)","Images must be supplied as a URL.
+(URL must be publicly accessible via the internet)","Material item is made from","Select Occasion
+(If no occasion is relevant, Leave Blank)",""
+"","Example-SKU-001","Example Title Product 1","Example Product Description 1                                                                                                                                   (How? What? Why? When? Where?)","keyword 1, keyword 2, keyword 3","14.99"," USD","50","","","i_did","0","made_to_order","1","","12345678","https://static.hdrezka.ac/i/2021/1/6/yeeb878c0c4ackm25f75i.jpeg","","","","","","","","","","","cotton","birthday",""
+"","Example-SKU-001","Example Title Product 1","Example Product Description 1                                                                                                                                   (How? What? Why? When? Where?)","keyword 1, keyword 2, keyword 3","14.99"," USD","50","","","i_did","0","made_to_order","1","","12345678","https://static.hdrezka.ac/i/2021/1/6/yeeb878c0c4ackm25f75i.jpeg","","","","","","","","","","","cotton","birthday",""
+"","Example-SKU-001","Example Title Product 1","Example Product Description 1                                                                                                                                   (How? What? Why? When? Where?)","keyword 1, keyword 2, keyword 3","14.99"," USD","50","","","i_did","0","made_to_order","1","","12345678","","https://static.hdrezka.ac/i/2021/1/6/yeeb878c0c4ackm25f75i.jpeg","","","","","","","","","","cotton","birthday",""
+"","Example-SKU-001","Example Title Product 1","Example Product Description 1                                                                                                                                   (How? What? Why? When? Where?)","keyword 1, keyword 2, keyword 3","14.99"," USD","50","","","i_did","0","made_to_order","1","","12345678","","","","https://static.hdrezka.ac/i/2021/1/6/yeeb878c0c4ackm25f75i.jpeg","","https://static.hdrezka.ac/i/2021/1/6/yeeb878c0c4ackm25f75i.jpeg","","","","","","cotton","birthday",""

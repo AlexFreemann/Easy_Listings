@@ -1,0 +1,49 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title %} Create variation {% endblock %}
+
+{% block content %}
+
+  <section id="login" class="login">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-in">
+          <h2>Uploaded <file></file></h2>
+        </div>
+
+          <div class="row justify-content-center">
+
+            <div class="col-lg-3 mt-5 mt-lg-0" data-aos="fade-right">
+
+                <form action="" method="post" role="form">
+
+                    <div class="col form-group">
+
+                        {% csrf_token %}
+                        <h3>{{var.name_app}} </ h3>
+                        {% for vo in var_ones %}
+                        {{vo.option}}
+                        {{vo.SKU}}
+                        {{vo.quantity}}
+                        {{vo.price}}
+
+                        {% endfor %}
+                        <!--<h3>{{var_in_el}} </h3>-->
+
+
+                    </div>
+
+
+                     <div class="text-center"><button type="submit">Upload again</button></div>
+
+                </form>
+                 <div class="text-center"><a href="{% url 'my_variations' %}"><button type="submit">Save this one</button></a></div>
+
+            </div>
+          </div>
+
+      </div>
+
+    </section>
+
+{% endblock %}

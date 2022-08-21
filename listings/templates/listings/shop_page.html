@@ -1,0 +1,46 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title %} Listing "Listing_title" {% endblock %}
+
+
+{% block content %}
+
+  <!--Listing section-->
+  <section id="features" class="features">
+      <div class="container">
+        <div class="tab-content" data-aos="fade-up">
+          <div class="tab-pane active show" id="tab-1" >
+            <div class="row" >
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>{{listing.title}}</h3>
+                <h3>Price: {{listing.price}} USD</h3>
+                <p>Price without discount: {{listing.price}} USD</p>
+                <p>Discount: 67%</p>
+                  {{listing.price}}
+                <!--<p class="fst-italic">-->
+                  <!--super nice description. super nice description. super nice description.-->
+                    <!--super nice description. super nice description.-->
+                <!--</p>-->
+
+                <p>
+          {{listing.description}}
+                    {{listing.photo}}
+                </p>
+                <!--<ul>-->
+                  <!--<li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>-->
+                  <!--<li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>-->
+                  <!--<li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>-->
+                <!--</ul>-->
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <!--<img src="{% static 'assets/img/features-1.png' %}">-->
+                <img src="{{listing.photo.url}}">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+<!--End listing seciton-->
+
+{% endblock %}

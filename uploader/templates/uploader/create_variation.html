@@ -1,0 +1,35 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title %} Create variation {% endblock %}
+
+{% block content %}
+
+  <section id="login" class="login">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-in">
+          <h2>Login</h2>
+        </div>
+
+          <div class="row justify-content-center">
+
+            <div class="col-lg-3 mt-5 mt-lg-0" data-aos="fade-right">
+
+                <form action="" method="post" role="form">
+                    <div class="col form-group">
+                        <h3>{{mes}} </h3>
+                        {% csrf_token %}
+                        {{form}}
+
+                        <div class="text-center"><button type="submit">Save</button></div>
+
+                    </div>
+                </form>
+            </div>
+          </div>
+
+      </div>
+
+    </section>
+
+{% endblock %}

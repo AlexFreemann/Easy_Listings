@@ -1,0 +1,65 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title %} Create variation {% endblock %}
+
+{% block content %}
+
+  <section id="login" class="login">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-in">
+          <h2>Upload your smart archive</h2>
+        </div>
+
+          <div class="row justify-content-center">
+
+            <div class="col-lg-3 mt-5 mt-lg-0" data-aos="fade-right">
+                 <h3>{{mes}}</h3>
+                <form action="" method="post" role="form" enctype="multipart/form-data">
+
+                  {% csrf_token %}
+
+                  {{form}}
+
+
+
+                <div class="text-center"><button type="submit">Upload</button></div>
+
+
+                </form>
+
+
+                {% if listings %}
+                 <form action="" method="post">
+                    {% csrf_token %}
+                   {% for listing in listings %}
+
+                      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <a href='listing_{{listing.id}}'>
+                            <div class="member" data-aos="fade-up">
+                              <div class="member-img">
+                                <img src="{{listing.photo_main}}" class="img-fluid" alt="">
+                              </div>
+                              <div class="member-info">
+                                <h4>{{listing.title}}</h4>
+                                <span>Price: {{listing.price}}</span>
+                                <input type="checkbox" value={{listing.id}} name={{listing.title}}>
+                              </div>
+                            </div>
+                        </a>
+                      </div>
+
+                    {% endfor %}
+                    <div class="text-center"><button type="submit" name="save_listings">Save</button></div>
+
+                {% endif %}
+
+                 </form>
+            </div>
+          </div>
+
+      </div>
+
+    </section>
+
+{% endblock %}
